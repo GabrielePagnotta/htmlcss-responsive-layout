@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+/* ----------------------------------------------------------------------
+                    UTILITIES
+----------------------------------------------------------------------    */
+.flex{
+    display:flex;
+}
+
+.radius{
+    border-radius: 20px;
+}
+
+
+
+
+/* ----------------------------------------------------------------------
+                    HEADER
+---------------------------------------------------------------------- */
+
+.container{
+    width:100%;
+    background-color: green;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-box{
+    width:20%;
+    border: 1px solid black;
+    background-color: red;
+}
+
+/* -------------------------------------------------------------------------
+                    MAIN
+-------------------------------------------------------------------------       */
+
+
+/* SEZIONE 1 */
+
+.container-blue-cards{
+    width:100%;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blue-cards{
+    width: 70%;
+    margin:20px;
+    background-color: lightblue;
+}
+
+
+/* SEZIONE 2 */
+
+.strategic-planning{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: violet;
+
+}
+
+.planning-box{
+    width: 70%;
+    margin:20px;
+    background-color:blueviolet;
+}
+
+
+/* SEIZONE 3 */
+
+.partner-container{
+    width:100%;
+    background-color: pink;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.partner-box{
+    width: 70%;
+    margin:20px;
+    background-color: brown;
+}
+
+/* SEZIONE 4 */
+
+    .working-container{
+        width: 100%;
+        background-color: coral;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    .working-box{
+        width: 70%;
+        margin:20px;
+        background-color: dimgray;
+    }
+
+
+/* SEZIONE 5 */
+
+.aboutus-container{
+    width:100%;
+    background-color: darkkhaki;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutus-box{
+    width:70%;
+    margin:20px;
+    background-color: deeppink;
+}
+
+/* SEZIONE 6 */
+
+.free-container{
+    width:100%;
+    background-color:gold;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.free-box{
+    width:70%;
+    margin:20px;
+    background-color:olive;
+}
+
+/* -----------------------------------------------------------------------
+                FOOOTER
+----------------------------------------------------------------------- */
+
+.container-footer{
+    width:100%;
+    background-color:greenyellow;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    .box-footer{
+        width:70%;
+        margin:20px;
+        background-color:darkgoldenrod;
+    }
