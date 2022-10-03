@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Responsive layout</title>
 </head>
 <body>
@@ -12,8 +13,12 @@
     <!-- header -->
     <header>
         <section class="container flex">
-            <div class="header-box">lore</div>
-            <div class="header-box">lore</div>
+            <div class="header-box flex center-row">
+                <img class="logo" src="./assets/img/logo.png" alt="">
+            </div>
+            <div class="header-box flex end-row">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </section>        
     </header>
 
@@ -21,24 +26,68 @@
     <main>
         <!-- sezione 1 -->
         <section class="container-blue-cards flex margin-l-r">
-            <div class="blue-cards radius">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi similique nisi, quidem fugit deleniti labore sunt dolorum. Quibusdam dolor error vero officiis enim molestiae fuga eum pariatur alias corrupti rem nemo delectus aperiam quod ratione, modi voluptatibus dolores temporibus corporis ab quidem illum! Aliquid error a quasi vel, ad aperiam reprehenderit iusto, fuga asperiores soluta alias facere fugiat magni officia dolor tempore ipsa consequatur, nobis aspernatur harum. Rem labore, error omnis minus cumque qui doloremque. Nihil libero temporibus maxime. Architecto.</div>
-            <div class="blue-cards radius">ciao</div>
-            <div class="blue-cards radius">ciao</div>
-            <div class="blue-cards radius">ciao</div>
-            <div class="blue-cards radius">ciao</div>
+            <div class="blue-cards radius flex">
+                <h2 class="blue-title">Get a demo application</h2>
+                <div class="text-blue-box lineheight">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quia optio commodi alias repudiandae illum nisi, earum eaque iure nulla? </p>
+                </div>
+                <button class="button-shape blue-button"><i class="fa-brands fa-apple"></i>App Store</button>
+                <img class="phone" src="./assets/img/phone.png" alt="">
+            </div>
+            <div class="blue-cards radius flex">
+                <i class="fa-solid fa-file-code"></i>
+                <h2 class="blue-title">Clean code</h2>
+                <p class="txt-center lineheight"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, odit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam magni dicta repellendus commodi consequuntur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, impedit.</p>
+            </div>
+            <div class="blue-cards radius flex">
+                <i class="fa-solid fa-compass-drafting"></i>
+                <h2 class="blue-title">Web design</h2>
+                <p class="txt-center lineheight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam magni dicta repellendus commodi consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, placeat?</p>
+            </div>
+            <div class="blue-cards radius flex">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2 class="blue-title">Developement</h2>
+                <p class="txt-center lineheight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam magni dicta repellendus commodi consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, placeat?</p>
+            </div>
+            <div class="blue-cards radius flex">
+                <i class="fa-solid fa-bullhorn"></i>
+                <h2 class="blue-title">Branding</h2>
+                <p class="txt-center lineheight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam magni dicta repellendus commodi consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, placeat?</p>
+            </div>
         </section>
         <!-- sezione 2 -->
         <section class="strategic-planning flex">
-            <div class="planning-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sit rerum. Tempore id ipsa perferendis in porro voluptas, iure consequatur repellendus facere quasi non quam, totam rem officia enim laudantium?</div>
-            <div class="planning-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sit rerum. Tempore id ipsa perferendis in porro voluptas, iure consequatur repellendus facere quasi non quam, totam rem officia enim laudantium?</div>
-            <div class="planning-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sit rerum. Tempore id ipsa perferendis in porro voluptas, iure consequatur repellendus facere quasi non quam, totam rem officia enim laudantium?</div>
+            <div class="planning-box flex">
+                <img class="img-planning-img"src="./assets/img/planning1.png" alt="">
+            </div>
+            <div class="planning-box flex start-row">
+                <h1 class="white font-format">Strategic planning</h1>
+            </div>
+            <div class="planning-box flex start">
+                <div class="lineheight white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sit rerum. Tempore id ipsa perferendis in porro voluptas, iure consequatur repellendus facere quasi non quam, totam rem officia enim laudantium?</div>
+            </div>
+            <div class="planning-box-3 radius">
+                <img class="img-planning-2" src="./assets/img/planning2.png" alt="">
+                <p id="develop-title">App Developement</p>
+                <p class="lineheight txt-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quis sed vitae vero qui tempore dolore ea cupiditate natus cum.</p>
+                <div class="center-row flex">
+                <i class="fa-solid fa-arrow-down"></i>
+                </div>
+            </div>
+            
         </section>
         <!-- sezione 3 -->
         <section class="partner-container flex">
-            <div class="partner-box">lorem</div>
-            <div class="partner-box">lorem</div>
-            <div class="partner-box">lorem</div>
-            <div class="partner-box">lorem</div>
+            <div class="partner-box">TESTIMONIALS</div>
+            <div class="partner-box font-format white">
+                <h4>We are committed expert partners</h4>
+                </div>
+            <div class="partner-box">
+                <p class="lineheight">We place huge value on strong relationship and seen the<br> benefit. they bring to our business.<br> Customer feedback is vital in<br> helping us to get it right</p>
+            </div>
+            <div class="partner-box radius">
+            <img class="testimonial"src="./assets/img/testimonial1.jpg" alt="">
+            </div>
             <div class="partner-box">lorem</div>
             <div class="partner-box">lorem</div>
         </section>
