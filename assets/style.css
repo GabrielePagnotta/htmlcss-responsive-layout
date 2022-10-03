@@ -12,6 +12,14 @@
     display:flex;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position:absolute;
+}
+
 .center-row{
     justify-content:center;
 }
@@ -53,6 +61,14 @@ justify-content: flex-start;
 .white{
     color:white;
     
+}
+
+.violet-bkg{
+    background-color: #9593e6;
+}
+
+.violet{
+color:#9593e6
 }
 
 
@@ -230,7 +246,8 @@ justify-content: flex-start;
 
 .partner-container{
     width:100%;
-    background-color: pink;
+    /* background-color: pink; */
+    margin:30px 0;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
@@ -239,7 +256,6 @@ justify-content: flex-start;
 .partner-box{
     width: 70%;
     margin:20px;
-    background-color: brown;
     text-align: center;
 }
 
@@ -249,10 +265,38 @@ justify-content: flex-start;
 /* BOX 2 */
 
 .testimonial{
-    width:60%;
+    width:150px;
+    height:150px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin:20px;
 
-    border-radius:150px;
 }
+
+.text-testimonial{
+    margin:10px 9px;
+}
+
+.fa-quote-left{
+    position:absolute;
+    top:200px;
+    left:30px;
+}
+
+.fa-quote-right{
+    position:absolute;
+    right:80px;
+    bottom:55px;
+}
+
+
+.under-text{
+    margin:20px;
+}
+
+
+
+
 
 
 /* SEZIONE 4 */
