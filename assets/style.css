@@ -320,10 +320,6 @@ margin:20px 0px;
 }
 
 
-
-
-
-
 /* SEZIONE 4 */
 
     .working-container{
@@ -383,7 +379,7 @@ margin:20px 0px;
 
 .quote-position-2{
     position:absolute;
-    left:150px;
+    left:160px;
     font-size: 3rem;
 
 }
@@ -392,7 +388,7 @@ margin:20px 0px;
     width:60%;
     border-radius: 50px;
     border: none;
-    margin:20px 0px;
+    margin:30px 0px 80px 0px;
     padding:5px;
     font-size: 15px;
 }
