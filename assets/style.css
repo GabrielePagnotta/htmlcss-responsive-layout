@@ -214,7 +214,7 @@ margin:20px 0px;
 /* BOX 4 */
 
 .fa-laptop-code{
-    font-size 5rem;
+    font-size:5rem;
     color:#0084fd;
     margin:30px 0px 0px;
 }
@@ -350,7 +350,8 @@ margin:20px 0px;
 
     .working-box{
         width: 90%;
-        margin:20px ;
+        margin:20px;
+        padding:20px;
         
     }
 
@@ -364,7 +365,7 @@ margin:20px 0px;
         width:60%;
         border-radius: 50px;
         border: none;
-        margin:15px 10px 40px 10px;
+        margin:15px 0px 40px 0px;
         padding:15px;
         font-size: 15px;
     }
