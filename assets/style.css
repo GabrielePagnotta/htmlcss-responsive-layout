@@ -53,6 +53,22 @@ justify-content: flex-start;
    
 }
 
+.txt-start{
+    text-align: start;
+}
+
+.margin-1{
+    margin:0 10px;
+}
+
+.margin-2{
+    margin:10px 0;
+}
+
+.margin-3{
+    margin: 10px 10px;
+}
+
 .lineheight{
     line-height: 30px;
     
@@ -63,12 +79,20 @@ justify-content: flex-start;
     
 }
 
+.white-bkg{
+    background-color: white;
+}
+
 .violet-bkg{
     background-color: #9593e6;
 }
 
 .violet{
 color:#9593e6
+}
+
+h1{
+margin:20px 0px;
 }
 
 
@@ -102,6 +126,7 @@ color:#9593e6
     padding:20px;
     color:white;
 }
+
 
 
 
@@ -172,7 +197,7 @@ color:#9593e6
 /* BOX 4 */
 
 .fa-laptop-code{
-    font-size: 5rem;
+    font-size 5rem;
     color:#0084fd;
     margin:30px 0px 0px;
 }
@@ -277,7 +302,7 @@ color:#9593e6
     margin:10px 9px;
 }
 
-.fa-quote-left{
+.quote-position{
     position:absolute;
     top:200px;
     left:30px;
@@ -303,7 +328,7 @@ color:#9593e6
 
     .working-container{
         width: 100%;
-        background-color: coral;
+        margin:20px 0;
         flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
@@ -311,26 +336,69 @@ color:#9593e6
 
 
     .working-box{
-        width: 70%;
-        margin:20px;
-        background-color: dimgray;
+        width: 90%;
+        margin:20px ;
+        
     }
+
+    .number{
+        font-size: 3rem;
+        margin:10px 10px;
+        padding-top: 20px;
+    }
+
+    .button-shape-2{
+        width:60%;
+        border-radius: 50px;
+        border: none;
+        margin:15px 10px 40px 10px;
+        padding:15px;
+        font-size: 15px;
+    }
+
+
 
 
 /* SEZIONE 5 */
 
 .aboutus-container{
     width:100%;
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .aboutus-box{
-    width:70%;
-    margin:20px;
-    background-color: deeppink;
+    width:80%;
+    margin:10px;
+    /* background-color: deeppink; */
+}
+
+.about-img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+
+.quote-position-2{
+    position:absolute;
+    left:150px;
+    font-size: 3rem;
+
+}
+
+.button-shape-3{
+    width:60%;
+    border-radius: 50px;
+    border: none;
+    margin:20px 0px;
+    padding:5px;
+    font-size: 15px;
+}
+
+.fa-linkedin{
+    margin:0 10px;
 }
 
 /* SEZIONE 6 */
@@ -347,6 +415,12 @@ color:#9593e6
     width:70%;
     margin:20px;
     background-color:olive;
+}
+
+.about-us-title{
+    margin-top:30px;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 /* -----------------------------------------------------------------------
