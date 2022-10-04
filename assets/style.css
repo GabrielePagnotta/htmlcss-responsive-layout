@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,107 +8,107 @@
 /* ----------------------------------------------------------------------
                     UTILITIES
 ----------------------------------------------------------------------    */
-.flex{
-    display:flex;
+.flex {
+    display: flex;
 }
 
-.relative{
+.relative {
     position: relative;
 }
 
-.absolute{
-    position:absolute;
+.absolute {
+    position: absolute;
 }
 
-.center-row{
-    justify-content:center;
+.center-row {
+    justify-content: center;
 }
 
-.start-row{
-justify-content: flex-start;
+.start-row {
+    justify-content: flex-start;
 }
-.end-row{
+
+.end-row {
     justify-content: flex-end;
 }
 
-.radius{
+.radius {
     border-radius: 20px;
 }
 
-.button-shape{
-    border-radius:30px;
+.button-shape {
+    border-radius: 30px;
     border: none;
 }
 
 
-.blue-title{
+.blue-title {
     text-align: center;
-    color:#0084fd;
-    margin:20px;
+    color: #0084fd;
+    margin: 20px;
 }
 
-.txt-center{
+.txt-center {
     text-align: center;
-    
-   
+
 }
 
-.txt-start{
+.txt-start {
     text-align: start;
 }
 
-.margin-1{
-    margin:0 10px;
+.margin-1 {
+    margin: 0 10px;
 }
 
-.margin-2{
-    margin:40px 0;
+.margin-2 {
+    margin: 40px 0;
 }
 
-.margin-3{
+.margin-3 {
     margin: 10px 10px;
 }
 
-.lineheight{
+.lineheight {
     line-height: 30px;
-    
+
 }
 
-.white{
-    color:white;
-    
+.white {
+    color: white;
+
 }
 
-.white-bkg{
+.white-bkg {
     background-color: white;
 }
 
-.violet-bkg{
+.violet-bkg {
     background-color: #9593e6;
 }
 
-.violet{
-color:#9593e6
+.violet {
+    color: #9593e6
 }
 
-.violet-2{
-    color:#d5d4f4;
+.violet-2 {
+    color: #d5d4f4;
 
 }
 
-.yellow{
+.yellow {
     color: #fdc15f;
 }
 
-.black-bkg{
+.black-bkg {
     background-color: #333333;
 }
 
-h1{
-margin:20px 0px;
+h1 {
+    margin: 20px 0px;
 }
 
-.big-size{
+.big-size {
     font-size: 3rem;
 }
 
@@ -119,29 +119,29 @@ margin:20px 0px;
                     HEADER
 ---------------------------------------------------------------------- */
 
-.container{
-    width:100%;
-    background-color:#0084fd;
+.container {
+    width: 100%;
+    background-color: #0084fd;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    
+
 }
 
-.header-box{
-    width:40%;
-      
+.header-box {
+    width: 40%;
+
 }
 
-.logo{
+.logo {
     width: 70%;
-    padding:10px;
+    padding: 10px;
 }
 
-.fa-bars{
-    font-size: 2rem;
-    padding:20px;
-    color:white;
+.fa-bars {
+    font-size: 3rem;
+    padding: 20px;
+    color: white;
 }
 
 
@@ -156,80 +156,99 @@ margin:20px 0px;
 /* SEZIONE 1 */
 
 /* BOX 1 */
-.container-blue-cards{
-    width:100%;
+.container-blue-cards {
+    width: 100%;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
 }
 
-.blue-cards{
+.blue-cards {
     width: 80%;
-    margin:20px;
+    margin: 20px;
     background-color: #b5ddff;
     flex-direction: column;
     align-items: center;
-    
-}
-
-.text-blue-box{
-    width:75%;
 
 }
 
-.fa-apple{
-    padding:10px;
+.blue-cards-2 {
+    width: 80%;
+    margin: 20px;
+    background-color: #b5ddff;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.blue-button{
-    width:80%;
-    margin:20px;
-    padding:5px;
+.blue-cards-3 {
+    width: 80%;
+    margin: 20px;
+    background-color: #b5ddff;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text-blue-box {
+    width: 75%;
+
+}
+
+.fa-apple {
+    padding: 10px;
+}
+
+.blue-button {
+    width: 80%;
+    margin: 20px;
+    padding: 5px;
     background-color: #0084fd;
     font-size: 1.2rem;
-    color:white;
+    color: white;
 }
 
-.phone{
+.phone {
     width: 70%;
 }
 
 /* BOX 2 */
-.fa-file-code{
+.fa-file-code {
     font-size: 5rem;
-    color:#0084fd;
-    margin:30px 0px 0px;
-    
+    color: #0084fd;
+    margin: 30px 0px 0px;
+
 }
 
 /* BOX 3 */
 
-.fa-compass-drafting{
+.fa-compass-drafting {
     font-size: 5rem;
-    color:#0084fd;
-    margin:30px 0px 0px;
-    
+    color: #0084fd;
+    margin: 30px 0px 0px;
+
 }
 
 /* BOX 4 */
 
-.fa-laptop-code{
-    font-size:5rem;
-    color:#0084fd;
-    margin:30px 0px 0px;
+.fa-laptop-code {
+    font-size: 5rem;
+    color: #0084fd;
+    margin: 30px 0px 0px;
 }
 
 /* BOX 6 */
 
-.fa-bullhorn{
+.fa-bullhorn {
     font-size: 5rem;
-    color:#0084fd;
-    margin:30px 0px 0px;
+    color: #0084fd;
+    margin: 30px 0px 0px;
 }
+
 /* SEZIONE 2 */
 
 /* BOX 1 */
-.strategic-planning{
+.strategic-planning {
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -238,66 +257,66 @@ margin:20px 0px;
 
 }
 
-.planning-box{
+.planning-box {
     width: 90%;
-    margin:20px;
+    margin: 20px;
     /* background-color: #b5ddff; */
 }
 
 
-.img-planning-img{
-    width:80%;
+.img-planning-img {
+    width: 80%;
 
 }
 
 /* BOX 2 */
-.font-format{
+.font-format {
     font-size: 1.9rem;
-    margin:10px 0;
+    margin: 10px 0;
 }
 
 /* BOX 3 */
-.planning-box-3{
-    width:80%;
-    margin:20px;
+.planning-box-3 {
+    width: 80%;
+    margin: 20px;
     background-color: white;
 }
 
-.img-planning-2{
-    width:100%;
-   
+.img-planning-2 {
+    width: 100%;
+
 }
 
-#develop-title{
+#develop-title {
     font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
-    margin:20px;
+    margin: 20px;
 }
 
-.fa-arrow-down{
+.fa-arrow-down {
     background-color: #9792e4;
     font-size: 1.3rem;
-    padding:20px;
+    padding: 20px;
     border-radius: 100px;
-    margin:20px;
+    margin: 20px;
 }
 
 /* SEIZONE 3 */
 
 
-.partner-container{
-    width:100%;
+.partner-container {
+    width: 100%;
     /* background-color: pink; */
-    margin:30px 0;
+    margin: 30px 0;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.partner-box{
-    width: 70%;
-    margin:20px;
+.partner-box {
+    width: 80%;
+    margin: 20px;
     text-align: center;
 }
 
@@ -306,149 +325,149 @@ margin:20px 0px;
 
 /* BOX 2 */
 
-.testimonial{
-    width:150px;
-    height:150px;
-   border-radius: 50%;
-   object-fit: cover;
-   margin:20px;
+.testimonial {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
 
 }
 
-.text-testimonial{
-    margin:10px 9px;
+.text-testimonial {
+    margin: 10px 9px;
 }
 
-.quote-position{
-    position:absolute;
-    top:200px;
-    left:30px;
+.quote-position {
+    position: absolute;
+    top: 200px;
+    left: 15px;
 }
 
-.fa-quote-right{
-    position:absolute;
-    right:80px;
-    bottom:55px;
+.fa-quote-right {
+    position: absolute;
+    right: 60px;
+    bottom: 55px;
 }
 
 
-.under-text{
-    margin:20px;
+.under-text {
+    margin: 20px;
 }
 
 
 /* SEZIONE 4 */
 
-    .working-container{
-        width: 100%;
-        margin:20px 0;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-    }
+.working-container {
+    width: 100%;
+    margin: 20px 0;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 
-    .working-box{
-        width: 90%;
-        margin:20px;
-        padding:20px;
-        
-    }
+.working-box {
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
 
-    .number{
-        font-size: 3rem;
-        margin:10px 10px;
-        padding-top: 20px;
-    }
+}
 
-    .button-shape-2{
-        width:60%;
-        border-radius: 50px;
-        border: none;
-        margin:15px 0px 40px 0px;
-        padding:15px;
-        font-size: 15px;
-    }
+.number {
+    font-size: 3rem;
+    margin: 10px 10px;
+    padding-top: 20px;
+}
+
+.button-shape-2 {
+    width: 60%;
+    border-radius: 50px;
+    border: none;
+    margin: 15px 0px 40px 0px;
+    padding: 15px;
+    font-size: 15px;
+}
 
 
 
 
 /* SEZIONE 5 */
 
-.aboutus-container{
-    width:100%;
+.aboutus-container {
+    width: 100%;
     /* background-color: darkkhaki; */
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.aboutus-box{
-    width:80%;
-    margin:10px;
+.aboutus-box {
+    width: 80%;
+    margin: 10px;
     /* background-color: deeppink; */
 
 }
 
-.about-us-title{
-    margin-top:30px;
+.about-us-title {
+    margin-top: 30px;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-.about-img{
-    width:150px;
-    height:150px;
-    border-radius:50%;
+.about-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
-.quote-position-2{
-    position:absolute;
-    left:160px;
+.quote-position-2 {
+    position: absolute;
+    left: 160px;
     font-size: 3rem;
 
 }
 
-.button-shape-3{
-    width:60%;
+.button-shape-3 {
+    width: 60%;
     border-radius: 50px;
     border: none;
-    margin:30px 0px 80px 0px;
-    padding:5px;
+    margin: 30px 0px 80px 0px;
+    padding: 5px;
     font-size: 15px;
 }
 
-.fa-linkedin{
-    margin:0 10px;
+.fa-linkedin {
+    margin: 0 10px;
 }
 
 /* SEZIONE 6 */
 
-.free-container{
-    width:100%;
+.free-container {
+    width: 100%;
     /* background-color:gold; */
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.free-box{
-    width:80%;
-    margin:10px;
+.free-box {
+    width: 80%;
+    margin: 10px;
     /* background-color:olive; */
 }
 
-.button-shape-4{
-    width:80%;
-    padding:20px;
-    margin:20px;
+.button-shape-4 {
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
     font-size: 1.2rem;
     border-radius: 50px;
-    border:none;
-    
+    border: none;
+
 }
 
-.fa-circle{
+.fa-circle {
     font-size: 5px;
     vertical-align: middle;
 }
@@ -457,16 +476,140 @@ margin:20px 0px;
                 FOOOTER
 ----------------------------------------------------------------------- */
 
-.container-footer{
-    width:100%;
+.container-footer {
+    width: 100%;
     /* background-color:greenyellow; */
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
 
-    .box-footer{
-        width:70%;
-        margin:40px 0 20px 0;
-        /* background-color:darkgoldenrod; */
+.box-footer {
+    width: 70%;
+    margin: 40px 0 20px 0;
+    /* background-color:darkgoldenrod; */
+}
+
+/* ---------------------------------------------------------------------------
+                RESPONSIVE
+--------------------------------------------------------------------------- */
+
+@media screen and (min-width: 768px){
+
+    .logo{
+        width:50%;
     }
+
+    .container-blue-cards {
+        width:100%;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+    }
+
+    .blue-button {
+        width: 40%;
+        margin: 20px 0x;
+        padding: 5px;
+        background-color: #0084fd;
+        font-size: 1.2rem;
+        color: white;
+    }
+
+    .phone{
+        width:50%;
+    }
+
+    .blue-cards {
+        width: 60%;
+        margin: 20 0 0 20px;
+        background-color: #b5ddff;
+        flex-direction: column;
+        align-items: flex-start;
+
+        
+        
+    }
+
+    .blue-cards-2 {
+        width: 30%;
+        margin: 20px 20px 0 0;
+        padding-bottom: 23%;
+        background-color: #b5ddff;
+        flex-direction: column;
+
+        
+    
+    }
+
+    .blue-cards-3 {
+        width:calc(90%/3 - 20px);
+        margin:20px;
+        background-color: #b5ddff;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .planning-box-3{
+        width:90%;
+        
+    }
+
+    .partner-container{
+        justify-content: center;
+
+    }
+
+    .partner-box {
+        width: 80%;
+        margin: 20px;
+        display:flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+
+    }
+
+    .testimonial{
+        justify-content: flex-start;
+    }
+
+    .text-testimonial{
+       width:65%;
+       height:20%;
+       text-align: start;
+       margin:30px 0;
+       padding: 0;
+    }
+
+    .under-text{
+        width:65%;
+        margin:0;
+        text-align: start;
+        position: absolute;
+        bottom:25px;
+        
+    }
+
+    .fa-quote-right{
+        bottom:60px;
+        right:270px
+    }
+
+    .quote-position{
+        top:25px;
+        left:195px;
+        
+    }
+
+    
+        
+
+    
+
+}
